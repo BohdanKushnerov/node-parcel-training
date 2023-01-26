@@ -65,3 +65,41 @@ rm css/styles.css - удалить файл по путі;
 mkdir css - создасть папку;
 mkdir css/global - создасть папку в папкі;
 rm -rf css - удалить папку;
+
+1. npm init ->enter...'y' enter;
+Або npm init --yes або npm init -y;
+
+2. npm i joi;
+npm i uuid.v4;
+Добавляються dependencies - завісімості;
+
+3. npm remove joi; - удалить joi;
+
+4. const Joi = require('joi');
+const shortid = require('shortid');
+console.log(shortid.generate());
+
+І можна написать node app.js/
+або npm start - 
+якшо в JSON помінять скріпт "scripts": {
+    "start": "node app.js"
+  },
+
+5. Pre і post скріпти:
+"scripts": {
+    "start": "node app.js",
+    "prestart": "echo \"это prestart\"",
+    "poststart": "echo \"это poststart\""
+  },
+
+6. "scripts": {
+    "script-1": "echo \"это script-1\"",
+    "script-2": "echo \"это script-2\"",
+    "all": "npm run script-1 && npm run script-2"
+  },
+
+  npm run all
+
+7. 
+
+
